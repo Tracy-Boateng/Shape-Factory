@@ -1,0 +1,48 @@
+<!DOCTYPE html> 
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Tracy Boateng">
+    <meta name="description" content="Shape Factory Grid Game">
+    <meta name="keywords" content="html, css, web, web development, javascript, object oriented javascript">
+    <title>Shape Factory</title>
+    <link rel="icon" href="./assets/media/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/style/index.css" media="all">
+    <script defer src="./assets/script/utils.js"></script>
+    <script defer src="./assets/script/app.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <main>
+      <h1>Shape Factory</h1>
+
+      <div class="controls">
+        <label for="shapeSelect">Shape:</label>
+        <select id="shapeSelect">
+          <option value="circle">Circle</option>
+          <option value="square">Square</option>
+        </select>
+
+        <label for="colorSelect">Colour:</label>
+        <select id="colorSelect">
+          <option value="blue">Blue</option>
+          <option value="green">Green</option>
+          <option value="orange">Orange</option>
+          <option value="pink">Pink</option>
+          <option value="purple">Purple</option>
+        </select>
+
+        <button id="createBtn">Create</button>
+        <button id="resetBtn" class="reset">Reset</button>
+      </div>
+
+  
+      <div id="game-box">
+        <div id="grid"></div>
+      </div>
+    </main>
+  </body>
+</html>
