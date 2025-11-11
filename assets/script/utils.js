@@ -1,3 +1,5 @@
+'use strict';
+
 class Shape {
   constructor(name, colour) {
     this._name = name;

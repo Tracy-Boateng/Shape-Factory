@@ -1,3 +1,5 @@
+'use strict';
+
 const shapeSelect = document.getElementById('shapeSelect');
 const colorSelect = document.getElementById('colorSelect');
 const grid = document.getElementById('grid');
